@@ -45,8 +45,8 @@ body {
             position: absolute;
             display: flex;
             justify-content: center;
-            width: 22vw;
-            height: 46vh;
+            width: 18vw;
+            height: 50vh;
             background-image: url(../media/img/photography_texture.jpg);
             background-size: cover;
             background-color: #FFFFFF;
@@ -61,12 +61,12 @@ body {
         & #NEW_photo {
             transform: rotateZ(14.72deg);
             top: 9vh;
-            left: 5vw;
+            left: 7vw;
         }
         & #OLD_photo {
             transform: rotateZ(-16.04deg);
             bottom: 7vh;
-            left: 5vw;
+            left: 7vw;
         }
         & #content {
             position: relative;
