@@ -119,6 +119,7 @@ body #blackout {
   min-height: 100%;
   background-color: rgba(38, 32, 32, 0.9137254902);
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
   z-index: 9999;
 }
@@ -126,6 +127,7 @@ body #blackout button {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
   position: absolute;
   width: 2.5vw;
@@ -239,6 +241,7 @@ body #blackout.active {
   visibility: visible;
   opacity: 1;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
   z-index: 9999;
 }
@@ -246,6 +249,7 @@ body #blackout.active button.active {
   visibility: visible;
   opacity: 1;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body .scroll_section {
@@ -270,6 +274,7 @@ body article video {
   height: 100%;
   background: url(../media/img/images.jfif);
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-size: 100% 100%;
   background-position: center;
@@ -277,6 +282,7 @@ body article video {
 }
 body article video.animated {
   -webkit-transition: background 0.65s ease-out;
+  -o-transition: background 0.65s ease-out;
   transition: background 0.65s ease-out;
   background-size: 120% 120%;
 }
@@ -295,6 +301,7 @@ body article #section {
   width: 100%;
   height: 100%;
   -webkit-transition: background 0.25s linear;
+  -o-transition: background 0.25s linear;
   transition: background 0.25s linear;
   background-color: rgba(6, 6, 6, 0.88);
 }
@@ -348,6 +355,7 @@ body article #section p {
   visibility: visible;
   opacity: 1;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body article #section p.active {
@@ -355,6 +363,7 @@ body article #section p.active {
   opacity: 0;
   display: none;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body article #section #but_start {
@@ -382,6 +391,7 @@ body article #section #but_start.active {
   font-style: normal;
   color: #FFFFFF;
   -webkit-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
   transition: background-color 0.15s linear;
   background-color: transparent;
   border: solid 4px #FFFFFF;
@@ -390,6 +400,7 @@ body article #section #but_start.active {
 }
 body article #section #but_start.active:hover {
   -webkit-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
   transition: background-color 0.15s linear;
   background-color: rgba(255, 255, 255, 0.0823529412);
 }
@@ -401,6 +412,7 @@ body article #section #but_svg {
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
   transition: background-color 0.15s linear;
   background-color: transparent;
   border-radius: 50%;
@@ -409,11 +421,13 @@ body article #section #but_svg {
 }
 body article #section #but_svg:hover {
   -webkit-transition: background-color 0.15s linear;
+  -o-transition: background-color 0.15s linear;
   transition: background-color 0.15s linear;
   background-color: rgba(255, 255, 255, 0.0980392157);
 }
 body article #section.active {
   -webkit-transition: background 0.25s linear;
+  -o-transition: background 0.25s linear;
   transition: background 0.25s linear;
   background-color: rgba(6, 6, 6, 0.95);
 }
@@ -491,6 +505,7 @@ body main article a {
   font-style: normal;
   color: #564343;
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: transparent;
   border-radius: 8px;
@@ -499,6 +514,7 @@ body main article a {
 }
 body main article a:hover {
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: #564343;
   color: #D1BD8F;
@@ -516,6 +532,7 @@ body aside.first_ch #but_arrow_left, body aside.first_ch #but_arrow_right {
   top: 50%;
   position: absolute;
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: transparent;
   background-size: cover;
@@ -527,6 +544,7 @@ body aside.first_ch #but_arrow_left, body aside.first_ch #but_arrow_right {
 }
 body aside.first_ch #but_arrow_left:hover, body aside.first_ch #but_arrow_right:hover {
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: rgba(86, 67, 67, 0.23);
 }
@@ -563,6 +581,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(1), body aside
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: transparent;
   background: url(#);
@@ -573,6 +592,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(1), body aside
 body aside.first_ch header #categories_pc_tablet button:nth-child(1) svg, body aside.first_ch header #categories_pc_tablet button:nth-child(2) svg, body aside.first_ch header #categories_pc_tablet button:nth-child(3) svg {
   fill: #564343;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(4) {
@@ -594,6 +614,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(4) {
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: transparent;
   background: url(#);
@@ -604,21 +625,25 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(4) {
 body aside.first_ch header #categories_pc_tablet button:nth-child(4) svg {
   stroke: #564343;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
   fill: #D1BD8F;
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(1):hover, body aside.first_ch header #categories_pc_tablet button:nth-child(2):hover, body aside.first_ch header #categories_pc_tablet button:nth-child(3):hover {
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: rgba(86, 67, 67, 0.9411764706);
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(1):hover svg, body aside.first_ch header #categories_pc_tablet button:nth-child(2):hover svg, body aside.first_ch header #categories_pc_tablet button:nth-child(3):hover svg {
   fill: #D1BD8F;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(4):hover {
   -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
   background-color: rgba(86, 67, 67, 0.9411764706);
 }
@@ -626,6 +651,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(4):hover svg {
   stroke: #D1BD8F;
   fill: rgba(86, 67, 67, 0.9411764706);
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(1) {
@@ -656,6 +682,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(1).active, bod
 body aside.first_ch header #categories_pc_tablet button:nth-child(1).active svg, body aside.first_ch header #categories_pc_tablet button:nth-child(2).active svg, body aside.first_ch header #categories_pc_tablet button:nth-child(3).active svg {
   fill: #D1BD8F;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body aside.first_ch header #categories_pc_tablet button:nth-child(4).active {
@@ -665,6 +692,7 @@ body aside.first_ch header #categories_pc_tablet button:nth-child(4).active svg 
   stroke: #D1BD8F;
   fill: #564343;
   -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
 body aside.first_ch #carousel_screen_pc_tablet {
@@ -702,6 +730,7 @@ body aside.first_ch #carousel_screen_pc_tablet article {
   min-width: 100%;
   height: 100%;
   -webkit-transition: translate 0.5s linear;
+  -o-transition: translate 0.5s linear;
   transition: translate 0.5s linear;
 }
 body aside.first_ch #carousel_screen_pc_tablet article section:nth-child(1) {
@@ -737,6 +766,12 @@ body aside.first_ch #carousel_screen_pc_tablet article section .place {
 body aside.first_ch #carousel_screen_pc_tablet article section .place div:nth-child(1) {
   height: 300px;
   border: solid 8px #564343;
+}
+body aside.first_ch #carousel_screen_pc_tablet article section .place div:nth-child(1) img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 body aside.first_ch #carousel_screen_pc_tablet article section .place div:nth-child(2) {
   display: -webkit-box;
@@ -843,6 +878,7 @@ body footer a {
   background-color: #564343;
   border-radius: 8px 0 0 8px;
   -webkit-transition: width 0.15s linear;
+  -o-transition: width 0.15s linear;
   transition: width 0.15s linear;
 }
 body footer a img {
@@ -851,6 +887,7 @@ body footer a img {
 }
 body footer a:hover {
   -webkit-transition: width 0.15s linear;
+  -o-transition: width 0.15s linear;
   transition: width 0.15s linear;
   width: 5vw;
 }
@@ -1020,6 +1057,7 @@ body #anchor_aside1 {
   }
   body aside.first_ch .carousel_article_sm {
     -webkit-transition: translate 0.5s linear;
+    -o-transition: translate 0.5s linear;
     transition: translate 0.5s linear;
   }
   body aside.first_ch #but_arrow_left, body aside.first_ch #but_arrow_right {
@@ -1063,6 +1101,7 @@ body #anchor_aside1 {
     width: 100%;
     min-height: 100%;
     -webkit-transition: translate 0.5s linear;
+    -o-transition: translate 0.5s linear;
     transition: translate 0.5s linear;
   }
   body aside.first_ch #carousel_screen_smartphone .carousel_sm_section .carousel {
